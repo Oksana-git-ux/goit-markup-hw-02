@@ -101,23 +101,15 @@ body {
 /* section 3 team */
 .feature-page {
 background-color: #F4F4FD
+text-align: center;
 }
 
 .feature-team {
   background-color: #FFFFFF
+
 }
 
 /* section 4 portfolio */
-.portfolio-list {
-  font-weight: 700;
-  line-height: 1.11;
-  font-size: 36px;
-  text-align: center
-  letter-spacing: 0.02em
-  text-transform: capitalize
-  color: #2e2f42;
-}
-
 .portfolio-list-text {
   font-weight: 400;
   font-size: 16px;
@@ -130,6 +122,10 @@ background-color: #F4F4FD
 /* footer */
 .footer-page {
   background: #2e2f42;
+}
+
+.logo-name {
+  color: #f4f4fd
 }
 
 .text-footer-page {
