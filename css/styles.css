@@ -2,7 +2,8 @@
 .link:hover,
 .link:focus,
 .info-list, 
-.logo-name:active {
+.logo-name:active,
+.page-btn {
   color: #404bbf;
 }
 a {
@@ -31,6 +32,10 @@ body {
   color: #4d5ae5;
 }
 
+.logo-name {
+  color: #2e2f42;
+}
+
 .list-nav {
   font-weight: 500;
   font-size: 16px;
@@ -55,8 +60,13 @@ body {
 }
 
 .page-btn {
+  font-weight: 500
   font-size: 16px;
   cursor: pointer;
+  color:  #4D5AE5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+   color: #ffffff;
 }
 
 /* section 2 */
@@ -66,6 +76,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em
   color: #2e2f42;
+  background-color: #FFFFFF 
+}
+.title-text {
+  color: #434455;
 }
 
 /* section 3 */
@@ -73,6 +87,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -80,6 +95,7 @@ body {
 .portfolio-list {
   font-weight: 700;
   line-height: 1.11;
+  ont-size: 36px;
   text-transform: capitalize
   color: #2e2f42;
 }
