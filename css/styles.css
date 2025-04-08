@@ -5,6 +5,7 @@
 .logo-name:active,
 .page-btn {
   color: #404bbf;
+  background-color: #404BBF;
 }
 a {
   text-decoration: none;
@@ -33,13 +34,15 @@ body {
 }
 
 .logo-name {
-  color: #2e2f42;
+  color: #2e2f42 ;
 }
 
 .list-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:  #2e2f42;
 }
 
 .info-list {
@@ -63,41 +66,65 @@ body {
   font-weight: 500
   font-size: 16px;
   cursor: pointer;
-  color:  #4D5AE5;
   line-height: 1.5;
   letter-spacing: 0.04em;
-   color: #ffffff;
+  color: #ffffff;
+  background-color: #4D5AE5;
 }
 
 /* section 2 */
+.title-list {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize
+  color: #2E2F42;
+}
+
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em
   color: #2e2f42;
-  background-color: #FFFFFF 
 }
 .title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* section 3 */
-.title-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+/* section 3 team */
+.feature-page {
+background-color: #F4F4FD
 }
 
-/* section 4 */
+.feature-team {
+  background-color: #FFFFFF
+}
+
+/* section 4 portfolio */
 .portfolio-list {
   font-weight: 700;
   line-height: 1.11;
-  ont-size: 36px;
+  font-size: 36px;
+  text-align: center
+  letter-spacing: 0.02em
   text-transform: capitalize
   color: #2e2f42;
+}
+
+.portfolio-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 /* footer */
