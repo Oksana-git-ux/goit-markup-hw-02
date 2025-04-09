@@ -52,6 +52,10 @@ body {
   color: #404bbf ;
 }
 
+.link:active {
+ color: #404bbf 
+}
+
 .post-info-list {
 font-style: normal;
 }
@@ -85,8 +89,12 @@ font-style: normal;
 }
 
 button:hover {
-  color: #404bbf;;
+  color: #404bbf;
   background-color: #404bbf;
+}
+
+button:active {
+  color: #404bbf
 }
 
 /* section 2 */
