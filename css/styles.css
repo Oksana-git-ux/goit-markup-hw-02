@@ -1,14 +1,21 @@
 /* base styles */
-.link:hover,
-.link:focus,
-.info-list, 
-.logo-name:active,
-.page-btn {
+a:hover {
   color: #404bbf;
-  background-color: #404BBF;
 }
+
+.link:active {
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404BBF;
+}
+
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 body {
@@ -37,22 +44,24 @@ body {
   color: #2e2f42 ;
 }
 
-.list-nav {
+.nav-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 
 .info-list {
   font-style: normal;
-  color: #434455;
+  color: inherit;
 }
+
 /* section 1 */
 .main-page {
   background: #2e2f42;
 }
+
 .page-title {
   font-weight: 700;
   font-size: 56px;
@@ -72,6 +81,10 @@ body {
   background-color: #4D5AE5;
 }
 
+button:hover {
+  background-color: #404bbf
+}
+
 /* section 2 */
 .title-list {
   font-weight: 700;
@@ -79,17 +92,14 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize
-  color: #2E2F42;
 }
 
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em
-  color: #2e2f42;
 }
+
 .title-text {
   font-weight: 400;
   font-size: 16px;
@@ -100,8 +110,8 @@ body {
 
 /* section 3 team */
 .feature-page {
-background-color: #F4F4FD
-text-align: center;
+  background-color: #F4F4FD
+  text-align: center;
 }
 
 .feature-team {
@@ -124,10 +134,7 @@ text-align: center;
   background: #2e2f42;
 }
 
-.logo-name {
-  color: #f4f4fd
-}
-
+.logo-name-footer,
 .text-footer-page {
   color: #f4f4fd;
 }
