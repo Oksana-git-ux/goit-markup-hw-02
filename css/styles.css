@@ -48,6 +48,10 @@ body {
   color: #2e2f42;
 }
 
+.link:hover {
+  color: #404bbf ;
+}
+
 .post-info-list {
 font-style: normal;
 }
@@ -70,7 +74,7 @@ font-style: normal;
   color: #ffffff;
 }
 
-.page-btn:hover {
+.page-btn {
   font-weight: 500
   font-size: 16px;
   cursor: pointer;
@@ -78,6 +82,11 @@ font-style: normal;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+}
+
+button:hover {
+  color: #404bbf;;
+  background-color: #404bbf;
 }
 
 /* section 2 */
