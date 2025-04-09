@@ -1,6 +1,9 @@
 /* base styles */
-.nav-list:hover, .info-list:hover {
+.nav-list:hover {
   color: #404bbf;
+}
+.info-list:hover {
+ color: #404bbf; 
 }
 
 a {
@@ -67,18 +70,14 @@ font-style: normal;
   color: #ffffff;
 }
 
-.page-btn {
+.page-btn:hover {
   font-weight: 500
   font-size: 16px;
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
-}
-
-.page-btn:hover {
-  background-color: #404bbf
+  background-color: #4d5ae5;
 }
 
 /* section 2 */
@@ -110,13 +109,12 @@ font-style: normal;
 
 /* section 3 team */
 .feature-page {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
   text-align: center;
 }
 
 .feature-team {
-  background-color: #FFFFFF
-
+  background-color: #ffffff
 }
 
 /* section 4 portfolio */
