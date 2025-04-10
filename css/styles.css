@@ -1,9 +1,10 @@
 /* base styles */
-.nav-list:hover {
+.nav-list:hover,
+.nav-list:focus {
   color: #404bbf;
 }
 .info-list:hover {
- color: #404bbf; 
+ color: #404bbf;
 }
 
 a {
@@ -48,14 +49,6 @@ body {
   color: #2e2f42;
 }
 
-.link:hover {
-  color: #404bbf ;
-}
-
-.link:active {
- color: #404bbf 
-}
-
 .post-info-list {
 font-style: normal;
 }
@@ -78,7 +71,7 @@ font-style: normal;
   color: #ffffff;
 }
 
-.page-btn {
+.button {
   font-weight: 500
   font-size: 16px;
   cursor: pointer;
@@ -88,13 +81,9 @@ font-style: normal;
   background-color: #4d5ae5;
 }
 
-button:hover {
-  color: #404bbf;
+.button:hover,
+.button:focus  {
   background-color: #404bbf;
-}
-
-button:active {
-  color: #404bbf
 }
 
 /* section 2 */
